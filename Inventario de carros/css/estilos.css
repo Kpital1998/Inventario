@@ -1,0 +1,142 @@
+form{
+    margin: 30px;
+    margin-left: 35%;
+    margin-bottom: -5px;
+}
+
+form input[type="search"]{
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #BCA9F5;
+    border-radius: 10px;
+}
+
+form input[type="button"]{
+    padding: 13px;
+    margin: 0 10px;
+    border: 0;
+    border-radius: 13px;
+    background: #A9A9F5;
+    color: beige;
+    font-size: 15px;
+    transition: .4s;
+}
+
+form input[type="button"]:hover{
+    cursor: pointer;
+    background: #2E2EFE;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+table th, table tr{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+input[value="Modificar"]{
+    background: #CED8F6;
+    color: beige;
+    border: 0px;
+    transition: .4s;
+    padding: 6px;
+}
+
+input[value="Modificar"]:hover{
+    background: #2E2EFE;
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+ input[value="Eliminar"]{
+    float: right;
+    margin-top: 0px;
+    background: #F7819F;
+    color: beige;
+    padding: 6px;
+    border: 0;
+    transition: .4s;
+    margin-right: 0px;
+}
+
+input[value="Eliminar"]:hover{
+    background: #DF013A;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/*----------------------------------*/
+
+.modal{
+    margin-top: -170px;
+}
+
+.modal button{
+    float: right;
+    background: #81DAF5;
+    padding: 8px;
+    border-radius: 15px;
+    border: 0;
+    transition: .3s;
+}
+
+.modal button:hover{
+    background: #0404B4;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.modal fieldset{
+    background: white;
+    width: 40%;
+    position: absolute;
+    margin: 0px;
+    margin-top: 40px;
+    margin-left: 30%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.modal fieldset form{
+    margin-left: 0;
+}
+
+.modal fieldset input[type="text"]{
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 8px 0;
+    margin-left: 0;
+    font-size: 15px;
+}
+
+.modal fieldset input[type="number"]{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.modal fieldset input[type="date"]{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+.modal fieldset input[type="submit"]{
+    background: #A9A9F5;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    transition: .4s;
+    color: beige;
+}
+
+.modal fieldset input[type="submit"]:hover{
+    background: #0101DF;
+    cursor: pointer;
+    transition: .4s;
+}
